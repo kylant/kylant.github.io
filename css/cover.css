@@ -33,9 +33,22 @@ a:hover {
 .btn-default:hover,
 .btn-default:focus {
   color: #D8A147;
+  font-weight: bold;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #2F916E;
   border: 1px solid #2F916E;
+}
+
+.contact-form{ margin-top:15px;}
+.contact-form .textarea{ min-height:220px; resize:none;}
+.form-control{ box-shadow:none; border-color:#eee; height:49px;}
+.form-control:focus{ box-shadow:none; border-color:#00b09c;}
+.form-control-feedback{ line-height:50px;}
+.main-btn{ background:#00b09c; border-color:#00b09c; color:#fff;}
+.main-btn:hover{ background:#00a491;color:#fff;}
+.form-control-feedback {
+line-height: 50px;
+top: 0px;
 }
 
 
